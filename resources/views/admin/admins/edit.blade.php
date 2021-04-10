@@ -65,6 +65,16 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>{{__('cp.catogre')}} <span class="text-danger">*</span></label>
+                                        <input type="text" class="form-control form-control-solid"
+                                               name="catogre"
+                                               value="{{ old('catogre' )}}" required/>
+                                    </div>
+                                </div>
+                            </div>
                          </div>
                         <button type="submit" id="submitForm" style="display:none"></button>
                     </form>
